@@ -5,6 +5,7 @@ import { ExpensesContext } from "../store/expenses-contex";
 
 const AllExpenses = () => {
   const expensesCtx = useContext(ExpensesContext);
+
   return (
     <ExpensesOutput
       expenses={expensesCtx.expenses}
